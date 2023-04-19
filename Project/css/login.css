@@ -1,0 +1,26 @@
+.form{
+    text-align: center;
+    
+    margin: auto;
+    padding: 10%;
+    width: 30%;
+    background-color: lightblue;
+    color: darkblue;
+    size: 60px;
+
+}
+.align-center{
+    margin: auto;
+    background-color: lightblue;
+    width: 48%;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+.sub-primary{
+    background-color: skyblue;
+    color: aliceblue;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}

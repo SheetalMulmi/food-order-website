@@ -1,0 +1,93 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+a{
+    color: rgb(64, 81, 59);
+}
+a:hover{
+    color:rgb(164, 188, 146);
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 2px solid darkolivegreen;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.sub-primary{
+    background-color: rgb(97, 144, 66);
+    color: aliceblue;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sub-primary:hover{
+    background-color: rgb(74, 111, 50);
+}
+
+
+/* css for footer */
+.footer{
+    background-color: rgb(221, 255, 187);
+    color: rgb(64, 81, 59);
+}
+
+/* css for menu */
+.menu{
+    border-bottom: 1px solid darkolivegreen;
+    background-color: rgb(221, 255, 187) ;
+    color: rgb(64, 81, 59);
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+
+/*  css foe main content */
+.main-content{
+    background-color: rgb(239, 254, 224);
+    margin: 1% 0%;
+    padding:3% 0;
+}
+.box4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}

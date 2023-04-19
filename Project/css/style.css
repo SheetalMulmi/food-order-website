@@ -1,0 +1,278 @@
+/* 
+Author: Sheetal;
+Theme: Restaurant food order;
+version:001
+*/
+
+/* css for all */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-color{
+    color: rgb(45, 62, 68);
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    color: rgb(147, 217, 239);
+    text-decoration: none;
+}
+
+a:hover{
+    color: teal;
+}
+/* search button ko lagi */
+.sub{
+    padding: 1%;
+    border: none;
+    font-size: 16px;
+    width: 10%;
+    border-radius: 8px;
+}
+.sub-primary{
+    background-color: rgb(147, 217, 239);
+    color: white;
+    cursor: pointer;
+}
+.sub-primary:hover{
+    background-color:rgb(115, 217, 251) ;
+}
+h2{
+    color:rgb(1, 29, 36);
+    font-size:x-large;
+    margin-bottom: 2%;
+}
+
+h3{
+    font-size: large;
+}
+
+.float-container{
+    position: relative;
+    
+}
+
+.float-text{
+    position: absolute;
+    bottom: 190px;
+    left: 40%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 20px;
+}
+
+/* css for navdar */
+
+.logo{
+    
+    width: 15%;
+    float: left;
+    /* brings the home and everything to the top but search in in the logo now */
+}
+
+.menu2{
+    line-height: 60px
+}
+
+
+
+
+.menu2 ul{
+    list-style-type: none;
+    
+}
+/* removes the bullet */
+
+.menu2 ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+/* display it in line form but it is down the imahe of go see in .logo */
+
+/* css of search bar */
+.search-bar{
+    background-image: url(../images/background.png);
+    /* the double dot(..) was to take the pivture out of the image folder */
+    background-size: auto;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.search-bar input[type="search"]{
+    width: 30%;
+    padding: 1%;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* css for catagories */
+
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+
+    width: 18%;
+    float: left;
+    margin: 3%;
+}
+
+.background{
+    background-color:rgb(201, 241, 248);
+}
+
+
+
+
+/* css for menu */
+
+.food{
+    
+    width: 40%;
+    margin:2%;
+    padding: 1%;
+    float: left;
+    background-color:white;
+    border-radius: 15px;
+
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    
+    border-radius: 15px;
+}
+/* rgb(220, 250, 255) */
+.food-menu{
+    background-color:rgb(201, 246, 254);
+    padding: 4% 0;
+}
+.menu{
+    padding: 2% 0;
+}
+
+.background2{
+    background-color:rgb(201, 246, 254);
+}
+
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+.food-description{
+    width: 70%;
+    float:left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 15px;
+    margin: 2% 0;
+}
+
+.food-img{
+    width: 13%;
+    float: left;
+
+}
+
+.food-img1{
+    width: 22%;
+    float: left;
+
+}
+
+.food-description1{
+    width: 70%;
+    float:left;
+    margin-left: 0%;
+}
+
+.food-price1{
+    font-size: 15px;
+    margin: 2% 0;
+}
+
+.food-img2{
+    width: 11%;
+    float: left;
+
+}
+
+.food-description2{
+    width: 70%;
+    float:left;
+    margin-left: 10%;
+}
+
+.food-price2{
+    font-size: 15px;
+    margin: 2% 0;
+}
+.food-img3{
+    width: 10%;
+    float: left;
+
+}
+.food-img4{
+    width: 8.5%;
+    float: left;
+
+}
+
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+
+
